@@ -1,0 +1,6 @@
+use_frameworks!
+target 'StringReverser_Tests' do
+  pod 'StringReverser', :path => '../'
+  
+  
+end
