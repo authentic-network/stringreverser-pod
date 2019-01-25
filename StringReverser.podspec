@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StringReverser'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple test to create and consume an own CocoaPod: StringReverser.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Test to create, provide and consume an cocoapod. The pod provides an simple stri
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Torsten Stein' => 'torsten@authentic.network' }
-  s.source           = { :git => 'https://github.com/authentic.network/StringReverser.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/authentic-network/stringreverser-pod.git', :tag => s.version.to_s }
   s.swift_version   = '3.2'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
