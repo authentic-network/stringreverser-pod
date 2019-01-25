@@ -7,7 +7,7 @@
 
 import Foundation
 
-func reversed(string: String) -> String {
+public func reversed(string: String) -> String {
     let reversed = String(string.reversed()) + " by CP(Swift)"
     return reversed
 }
