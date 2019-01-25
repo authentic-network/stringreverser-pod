@@ -12,14 +12,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		59DCFEF271A746009FA7C7B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		59DCFEF271A746009FA7C7B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* StringReverser_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringReverser_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		87FD5BD742029EF7F08B24C3 /* Pods_StringReverser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StringReverser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93F8438B8B8C9ACF29362016 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		93F8438B8B8C9ACF29362016 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9BC16C76FC07A4CAC7207BBF /* Pods-StringReverser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StringReverser_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StringReverser_Tests/Pods-StringReverser_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BC79066ADBD6C3E62FE67174 /* StringReverser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = StringReverser.podspec; path = ../StringReverser.podspec; sourceTree = "<group>"; };
+		BC79066ADBD6C3E62FE67174 /* StringReverser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StringReverser.podspec; path = ../StringReverser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C4DDF12484C1510D5CFBF768 /* Pods-StringReverser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StringReverser_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StringReverser_Tests/Pods-StringReverser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
